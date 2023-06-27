@@ -1,0 +1,16 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+    "name": "tcmalloc-unofficial",
+    "version-date": "2021-10-22",
+    "homepage": "https://github.com/craffael/tcmalloc",
+    "description": "TCMalloc is Google's customized implementation of C's malloc() and C++'s operator new used for memory allocation within our C and C++ code. TCMalloc is a fast, multi-threaded malloc implementation.",
+    "dependencies": [
+        {
+            "name": "abseil",
+            "features": [
+                "cxx17"
+            ]
+        }
+    ],
+    "supports":"linux & x64"
+}
